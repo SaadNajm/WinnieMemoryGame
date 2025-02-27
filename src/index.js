@@ -235,7 +235,7 @@ class Game extends React.Component {
   		return(
   			<div className="game">
   				<div><Board action={this.handleReplay} declareVictory={this.handleWin} /></div>
-  				<div className={this.state.victory? "modal" : "hide"}>Wonderful!<br /><button onClick={this.handleReplay}>Once more?</button><br /><img src="img/testpooh.gif"/></div>
+  				<div className={this.state.victory? "modal" : "hide"}>Wonderful!<br /><button onClick={this.handleReplay}>Once more?</button><br /><img  alt="winnie"   src="img/testpooh.gif"/></div>
   			</div>
   		);
   	}
